@@ -4,4 +4,4 @@ You can calculate the limiting stationary distribution for a Markov chain by sam
 
 The first thing to do is to set a variable called `A` equal to the transition matrix below:
 
-![](https://render.githubusercontent.com/render/math?math=\mathbf{A}=\begin{pmatrix}0.3&0.5&0.2\\0.3&0.4&0.3\\0.2&0.5&0.3\end{pmatrix})
+![](matrix.png)
