@@ -19,9 +19,9 @@ for i in range(len(mw)) :
        myind = i
        break
 
-line1 = line( [1,2,3], mlv[:,myind]/sum(mlv[:,myind])
+line1 = line( [1,2,3], mlv[:,myind]/sum(mlv[:,myind]) )
 axislabels=["State", "Probability"]
 
 class UnitTests(unittest.TestCase) :
     def test_plot(self) :
-        assert(check_plot([],patches=line1,explabels=axislabels,explegend=False,output=True))
+        assert(check_plot([],exppatch=line1,explabels=axislabels,explegend=False,output=True))
