@@ -31,7 +31,9 @@ w, lv = np.linalg.eig( A.T )
 
 The command above diagonalises the transpose of the transition matrix.  The eigenvalues of the transpose should be the same as the eigenvalues of the original matrix.  There should, therefore, still be an eigenvalue that is equal to one.  The eigenvector that corresponds to this eigenvalue contains the information about the limiting stationary distribution.   Problematically, however, the eigenvector will have been calculated so that its `n` elements satisfy:
 
-![](https://render.githubusercontent.com/render/math?math=\sum_{i=1}^nv_i^2=1)
+$$
+\sum_{i=1}^nv_i^2=1
+$$
 
 we can resolve this problem by renormalising the eigenvector as follows:
 
